@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+httpx
+supabase
+astroquery
+astropy
+matplotlib
+Pillow
+scipy
+python-dotenv
+torch
+torchvision
+timm
+lenstronomy

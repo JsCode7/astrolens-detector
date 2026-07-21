@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  trainer:
+    image: rocm/pytorch:latest
+    volumes:
+      - .:/app
+    working_dir: /app
+    devices:
+      - /dev/kfd:/dev/kfd
+      - /dev/dri:/dev/dri
+    group_add:
+      - video
+    ipc: host
+    command: bash -c "pip install tqdm && python train_vit_advanced.py"

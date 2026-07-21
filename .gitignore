@@ -1,0 +1,47 @@
+# Environments
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Machine Learning / Data
+*.pth
+*.pt
+*.onnx
+*.h5
+dataset/
+real_backgrounds/
+data/
+logs/
+*.fits
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Tests
+test_*.py
+*_test.py
+tests/
+__tests__/
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
